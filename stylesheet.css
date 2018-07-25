@@ -1,0 +1,152 @@
+
+body {
+    background-color: #f9fafc;
+}
+
+.navigation {
+    font-family: 'open-sans';
+    color: black;
+    display: flex;
+    width: 100%;
+    text-align: right;
+    background-color: #f9fafc;
+    vertical-align: bottom;
+    line-height: 60px;
+    height: 100px;
+    margin-right: 2%;
+}
+
+#nav-list {
+    margin-right: 2%;
+    font-family: 'open-sans';
+    margin: 0 auto;
+    list-style-type: none;
+    color: black;
+    margin-right: 0%;
+    text-decoration: none;
+}
+
+#nav-list a {
+    text-decoration: none;
+    font-family: 'open-sans';
+}
+
+#nav-list li {
+    margin: 0 auto;
+    list-style-type: none;
+    color: black;
+    display: inline-block;
+    font-size: 18px;
+    margin: 20px;
+    vertical-align: center;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.nav {
+    font-weight: 800;
+    font-family: 'open-sans';
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    margin: 0px 15px 15px 10px;
+    display: flex;
+}
+
+.button {
+    background: black;
+    color: white;
+    display: block;
+    padding: 10px 10px;
+    text-align: center;
+    width: 100px;
+    border-radius: 20px;
+}
+
+.h1 {
+    font-family: 'open-sans';
+    color: black;
+    display: flex;
+    margin-left: 1%;
+}
+
+.main {
+    margin-top: 75px;
+    width: 95%;
+    display: flex;
+    height: 50vh;
+}
+
+.vertical {
+    flex-direction: column;
+    flex: 1;
+    margin-left: 1%;
+}
+
+p {
+    border-left: thick solid #69696a;
+    border-left-width: 3px;
+    flex-grow: 4;
+    color: #69696a;
+    padding-left: 2%
+}
+
+.circles {
+    display:flex;
+    position: relative;
+    flex: 1;
+    justify-content: center;
+    margin-top: -8%;
+}
+
+.button2 {
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.button2 a {
+    align-content: center;
+    text-align: center;
+    text-decoration: none;
+    top: 50%
+}
+
+#one {
+    position: absolute;
+    background-color: rgba(207, 130, 213, 0.6);
+    padding: 60px;
+    border-radius: 50%;
+    top: 50px;
+    left: 300px;
+}
+
+#two {
+    position: absolute;
+    background-color: rgba(247, 193, 162, 0.7);
+    padding: 85px;
+    border-radius: 50%;
+    top: 140px;
+    left: 300px;
+}
+
+#three {
+    border-radius: 50%;
+    position: absolute;
+    background-color: rgba(247, 136, 167, 0.6);
+    padding: 130px;
+    border-radius: 50%;
+    top: 50px;
+    left: 100px;
+}
+footer {
+    margin-bottom: 1%;
+}
+
+@media only screen and (min-width:768px) {
+    logo, navigation, button, h1, main, vertical, p, footer, button2{
+        flex-direction: row;
+    }
+    
+}
